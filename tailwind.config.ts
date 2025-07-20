@@ -61,7 +61,21 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				invoice: {
+					blue: 'hsl(var(--invoice-blue))',
+					'blue-light': 'hsl(var(--invoice-blue-light))',
+					'blue-dark': 'hsl(var(--invoice-blue-dark))',
+					gray: 'hsl(var(--invoice-gray))',
+					'gray-dark': 'hsl(var(--invoice-gray-dark))',
+					success: 'hsl(var(--invoice-success))',
+					warning: 'hsl(var(--invoice-warning))'
 				}
+			},
+			boxShadow: {
+				'invoice-sm': 'var(--shadow-sm)',
+				'invoice-md': 'var(--shadow-md)',
+				'invoice-lg': 'var(--shadow-lg)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
